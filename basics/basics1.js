@@ -1,0 +1,8 @@
+let a=(45)
+let b=(18)
+let c=("Sawargaon")
+let d= typeof(b)
+let e=(a>b)
+let f=(++b)
+let g=(b=+3)
+console.table([a,b,c,d,e,f])
