@@ -68,4 +68,10 @@ const index = collagename.indexOf('N')
 //           --------- replace()---------
 const repl = (collagename.replace("GPND","SINHGAD"))
 
-console.log (collagename, collage,index,repl)
+// console.log (collagename, collage,index,repl)
+
+
+//           --------- split()---------
+// split breaks string into small strings
+const full = ("Pandurang-Bharat-Gangaji")
+console.log(full.split('-'));
