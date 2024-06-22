@@ -31,7 +31,14 @@ let surname = ("Gangaji")
 
 //            --------- chartAt ()---------
 
-
 const fullname = "Pandurang Bharat Gangaji"
-console.log(` ${fullname.charAt(0)}`);
+//console.log(` ${fullname.charAt(0)}`)
+
+
+//           ---------  toUpperCase()   toLowerCase() ---------
+
+const Greatcountry= ("Bharat")
+const words = ("Dhoom")
+const TheGreatcountry= Greatcountry.slice(3,4)
+console.log (TheGreatcountry.toUpperCase(),words.toLowerCase())
 
