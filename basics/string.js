@@ -54,5 +54,9 @@ const third = app.trimEnd()
 const fourth = app.trimLeft()
 const fifth = app.trimRight()
 
-console.table ([app,first,second,third,fourth,fifth])
+// console.table ([app,first,second,third,fourth,fifth])
 
+const collagename = ("GPND")
+const collage = collagename.substring(0,3)
+const index = collagename.indexOf('N')
+console.log (collagename, collage,index)
