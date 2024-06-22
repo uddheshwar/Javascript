@@ -56,7 +56,16 @@ const fifth = app.trimRight()
 
 // console.table ([app,first,second,third,fourth,fifth])
 
+
+//           --------- substring()---------
+
 const collagename = ("GPND")
 const collage = collagename.substring(0,3)
+
+//           --------- indexOf()---------
 const index = collagename.indexOf('N')
-console.log (collagename, collage,index)
+
+//           --------- replace()---------
+const repl = (collagename.replace("GPND","SINHGAD"))
+
+console.log (collagename, collage,index,repl)
