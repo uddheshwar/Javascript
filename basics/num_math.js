@@ -45,4 +45,6 @@ const morezero = 1000000
    console.log(Math.random()*10)  //  it gives random values between 1-10 (for ex-0.24)
    console.log(Math.random()*10+1)  //  it gives random values between 1-10 (for ex-0.024)
    console.log(Math.floor(Math.random()*10+1))  //  it gives random values between 1-10 (not in decimals)
+
+            //  ----------   Important   ----------  //
    console.log(Math.floor(Math.random()*(max-min+1)+ min))  // it gives random values between 10-20
