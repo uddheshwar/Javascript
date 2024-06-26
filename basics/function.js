@@ -3,14 +3,13 @@
    
            //  +++++  1st method  +++++  //
 
-     function address () {
-        console.log("Name: Pandurang Bharat Gangaji");
-        console.log("Tq: Deoni, Dist:- Latur ");
-        return address()
-     }   
+//      function address () {
+//         console.log("Name: Pandurang Bharat Gangaji");
+//         console.log("Tq: Deoni, Dist:- Latur ");
+//         return address()
+//      }   
 
-     address();
-
+//      address();
 
 
 
@@ -26,13 +25,29 @@ getmoney(5);*/
 
 
 
+           //  +++++  3rd method   +++++  //
+
+//  In that method we can write functions into the function  //
+//  function stores many operations  //
 
 
 
+function milk(){
+   //   console.log('By using ${return} we can buy' )
+   console.log(`by using ${money(3,2)} we can buy ${Math.floor(money(3,2)/1.5)}`)
+}
+milk()
 
+function money(num1,num2) {
+return num1+num2
+}
 
+var b= money(3,2);
 
-
+function bottles() {
+     return money/1
+}
+bottles()
 
 
 
