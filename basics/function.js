@@ -13,6 +13,15 @@
 
 
 
+         //  +++++  BMI Calculator  +++++  //
+
+        //  BMI=Weight(kg)/(height*height)
+
+         function bmiCalculator(weight,height){
+            return weight/(height*height);
+        } 
+         console.log(bmiCalculator(65,1.8)); 
+
 
            //  +++++  2nd method  +++++  //
 // example of depending upon money how many bottles of milk can buy
