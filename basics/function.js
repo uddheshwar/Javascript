@@ -12,17 +12,6 @@
 //      address();
 
 
-
-         //  +++++  BMI Calculator  +++++  //
-
-        //  BMI=Weight(kg)/(height*height)
-
-         function bmiCalculator(weight,height){
-            return weight/(height*height);
-        } 
-         console.log(bmiCalculator(65,1.8)); 
-
-
            //  +++++  2nd method  +++++  //
 // example of depending upon money how many bottles of milk can buy
 
@@ -41,24 +30,35 @@ getmoney(5);*/
 
 
 
-function milk(){
-   //   console.log('By using ${return} we can buy' )
-   console.log(`by using ${money(3,2)} we can buy ${Math.floor(money(3,2)/1.5)}`)
-}
-milk()
+// function milk(){
+//    //   console.log('By using ${return} we can buy' )
+//    console.log(`by using ${money(3,2)} we can buy ${Math.floor(money(3,2)/1.5)}`)
+// }
+// milk()
 
-function money(num1,num2) {
-return num1+num2
-}
+// function money(num1,num2) {
+// return num1+num2
+// }
 
-var b= money(3,2);
+// var b= money(3,2);
 
-function bottles() {
-     return money/1
-}
-bottles()
+// function bottles() {
+//      return money/1
+// }
+// bottles()
 
 
+
+
+//  +++++  BMI Calculator  +++++  //
+
+        //  BMI=Weight(kg)/(height*height)
+
+        function bmiCalculator(weight,height){
+         return weight/(height*height);
+     } 
+      var a= Math.round(bmiCalculator(65,1.8)); 
+   console.log(a);
 
 
 
