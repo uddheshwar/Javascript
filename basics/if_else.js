@@ -27,7 +27,7 @@
        
     // ------- increasing count by 1, addng "fizz" at divisable by 3 and
     // adding "Buzz" at divisable by 5 and adding "fizBuzz" at divisable by 
-    //  3 and 5
+    //  3 and 5   -----------   //
 
 
     var output = [];
