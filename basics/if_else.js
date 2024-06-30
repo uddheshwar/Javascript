@@ -52,3 +52,26 @@ if(count%5===0 && count%3===0){
 
 }
 
+
+
+//   -----------  example  -----------   //
+
+var count1=100;
+var count2=99;
+
+function beer(){
+    while(count1>100 && count2>99){
+      if(count1>100 && count2>99)  {
+      }
+    
+    
+    }
+    count1--;
+    count2--;  
+    
+    console.log(count1+"bottles of beer on the wall, "+count1+" bottles of beer");
+    console.log("Take one down and pass it around, "+count2+" bottles of beer on the wall");
+    }  
+
+
+
