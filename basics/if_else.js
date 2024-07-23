@@ -19,9 +19,9 @@
          
 /    /**************Don't change the code below****************/   
 
-     }
+ //    }
 
-     isLeap(2000);*/
+   //  isLeap(2000);
    
     
        
@@ -30,27 +30,25 @@
     //  3 and 5   -----------   //
 
 
-//     var output = [];
-// var count = 1;
+var output = [];
+var count = 1;
 
-// function fizBuzz() {
-//  output.push(count);
-//  count++;
-//     console.log(output);
+function fizBuzz() {
+ output.push(count);
+ count++;
+    console.log(output);
  
-// if(count%5===0 && count%3===0){
-//   output.push("fizBuzz")
-// }
+if(count%5===0 && count%3===0){
+  output.push("fizBuzz")
+}
  
-//  else if (count%3===0){
-//   output.push("fizz")
-//  }
-
-//  else if(count%5===0){
-//   output.push("Buzz")
-//  }
-
-// }
+ else if (count%3===0){
+  output.push("fizz")
+ }
+ else if(count%5===0){
+  output.push("Buzz")
+ }
+}
 
 
 
